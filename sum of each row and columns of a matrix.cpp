@@ -10,6 +10,7 @@ int main(){
             cin>>a[i][j];
         }
     }
+    //row
     for( i=0;i<n;i++){
         sum=0;
         for( j=0;j<n;j++){
@@ -17,6 +18,7 @@ int main(){
         }
         cout<<sum<<endl;
     }
+    // column
     for( i=0;i<n;i++){
         sum=0;
         for( j=0;j<n;j++){
